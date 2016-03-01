@@ -1,0 +1,10 @@
+# mount point	fstype    device    	[device2]
+
+/boot       emmc        /dev/block/platform/15570000.ufs/by-name/bootimg
+/cache      ext4        /dev/block/platform/15570000.ufs/by-name/cache
+/data       ext4        /dev/block/platform/15570000.ufs/by-name/userdata
+/misc       emmc        /dev/block/platform/15570000.ufs/by-name/misc
+/recovery   emmc        /dev/block/platform/15570000.ufs/by-name/recovery
+/sdcard     vfat        /dev/block/mmcblk0*
+/system     ext4        /dev/block/platform/15570000.ufs/by-name/system
+/sd-ext     ext4        /dev/block/mmcblk0p2
